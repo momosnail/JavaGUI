@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class PanelDemo {
     public static void main(String[] args) {
-        // 1.创建Frame容器对象
+        // 1.创建一个window对象  因为panel以及其他的容器，都不能独立存在，必须依附于window存在
         Frame frame = new Frame("在这里测试panel");
 
         // 2.创建Panel容器对象
